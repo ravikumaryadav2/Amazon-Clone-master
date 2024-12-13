@@ -1,0 +1,121 @@
+.login {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100vh;
+  background-color: white;
+}
+
+.login-logo {
+  margin-top: 23px;
+  margin-bottom: 23px;
+  object-fit: contain;
+  width: 100px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.login-container {
+  width: 300px;
+  height: fit-content;
+  display: flex;
+  flex-direction: column;
+  border-radius: 5px;
+  border: 1px solid lightgray;
+  padding: 23px;
+}
+
+.login-container > h1 {
+  font-weight: 500;
+  margin-bottom: 20px;
+}
+
+.login-container > form > h5 {
+  margin-bottom: 5px;
+}
+
+.login-container > form > input {
+  height: 30px;
+  margin-bottom: 10px;
+  background-color: white;
+  width: 98%;
+}
+
+.login-container > p {
+  margin-top: 15px;
+  font-size: 12px;
+}
+
+.login-signInButton {
+  background: #f0c14b;
+  border-radius: 2px;
+  width: 100%;
+  height: 30px;
+  border: 1px solid;
+  margin-top: 10px;
+  border-color: #a88734 #9c7e31 #846a29;
+}
+
+.login-registerButton {
+  border-radius: 2px;
+  width: 100%;
+  height: 30px;
+  border: 1px solid;
+  margin-top: 10px;
+  border-color: darkgray;
+}
+
+.a-divider {
+  margin-top: 23px;
+  text-align: center;
+  position: relative;
+  top: 2px;
+  padding-top: 1px;
+  margin-bottom: 14px;
+  line-height: 0;
+}
+
+.a-divider > h5 {
+  line-height: 1;
+  font-size: 12px;
+  color: #767676;
+  font-weight: 400;
+  z-index: 2;
+  position: relative;
+  display: inline-block;
+  background-color: #fff;
+  padding: 0 8px 0 7px;
+}
+
+.a-divider.a-divider-break:after {
+  content: "";
+  width: 100%;
+  background-color: transparent;
+  display: block;
+  height: 1px;
+  border-top: 1px solid #e7e7e7;
+  position: absolute;
+  top: 50%;
+  margin-top: -1px;
+  z-index: 1;
+}
+
+.a-divider.a-divider-section .a-divider-inner {
+    height: 44px;
+    margin-bottom: -18px;
+    background: -webkit-linear-gradient(to bottom,rgba(0,0,0,.14),rgba(0,0,0,.03) 3px,transparent);
+    background: linear-gradient(to bottom,rgba(0,0,0,.14),rgba(0,0,0,.03) 3px,transparent);
+    z-index: 0;
+    zoom: 1;
+}
+
+.a-divider.a-divider-section .a-divider-inner:after {
+    display: block;
+    width: 100%;
+    height: 44px;
+    background-color: transparent;
+    background: -webkit-linear-gradient(to right,#fff,rgba(255,255,255,0),#fff);
+    background: linear-gradient(to right,#fff,rgba(255,255,255,0),#fff);
+    z-index: 1;
+    content: "";
+}
